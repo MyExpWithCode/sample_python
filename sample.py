@@ -1,3 +1,7 @@
-print("Hi Nithesh")
+import first_package
+from first_package.pak1 import func
+import helloworld
+from helloworld.helloworld import hello_world
 
-print("2nd Line")
+hello_world()
+func()
